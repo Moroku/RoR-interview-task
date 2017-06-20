@@ -42,7 +42,16 @@ trigger the rule you made in step 3 and award the number of points to that playe
 An accessory can be a shield or a sword, or some thing that a player might equip, build a model and create some appropriate fields that an accessory might have.
 A page will be needed to display all the accessories a player has available. To help we will also need an API for creating and updating accessories.
 
-7. Show us some other ways you could interact with the api i.e. creating a badge or creating more players and displaying a leaderboard
+7. Show us some other ways you could interact with the api i.e. creating a badge or creating more players and displaying a leaderboard.
+
+
+#### Outcomes
+
+It would be great if we could see:
+
+* Your resulting app deployed to heroku
+* A github repo that we can look at to see your code base
+* And some tests around some of the functionality you've created
  
 
 
