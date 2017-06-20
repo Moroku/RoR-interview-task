@@ -39,4 +39,9 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.gameserver = ActiveSupport::OrderedOptions.new
+  config.gameserver.admin_api_token = ENV['GAME_SERVER_ADMIN_API_KEY'] || '0123456789'
+  config.gameserver.admin_shared_secret = ENV['GAME_SERVER_ADMIN_SHARED_SECRET'] || 'abcdefg'
+  config.gameserver.url = ENV['GAME_SERVER_URL'] || 'gameserver-hire.herokuapp.com'
 end
